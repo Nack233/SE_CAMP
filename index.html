@@ -4,9 +4,13 @@
         <title>workshop # html-form</title>
     </head>
     <body>
-        <h1>workshop # html-form</h1>
+        <center>
+            <h1>workshop # HTML_FORM</h1>
+        </center>
+    
         <form action="#">
-            <table>
+            <center>
+                <table>
                 <tr>
                     <td>
                         <td>
@@ -74,10 +78,10 @@
                 <tr>
                     <td>
                         <td>
-                            <label for="address">ที่อยู้</label>
+                            <label for="address">ที่อยู่</label>
                         </td>
                         <td>
-                           <textarea name="address" id="address" cols="30" rows="10"></textarea>
+                           <textarea name="address" id="address" cols="30" rows="5"></textarea>
                         </td>
                     </td>
                 </tr>
@@ -101,11 +105,11 @@
                             <label for="fav_music">แนวเพลงที่ชอบ</label>
                         </td>
                         <td>
-                            <input type="checkbox" id="thai_pop" name="favorite_music_genre" value="thai_pop">
+                            <input type="radio" id="thai_pop" name="favorite_music_genre" value="thai_pop">
                             <label for="thai_pop">เพื่อชีวิต</label>
-                            <input type="checkbox" id="luk_thung" name="favorite_music_genre" value="luk_thung">
+                            <input type="radio" id="luk_thung" name="favorite_music_genre" value="luk_thung">
                             <label for="luk_thung">ลูกทุ่ง</label>
-                            <input type="checkbox" id="other_music_genre" name="favorite_music_genre" value="other_music_genre">
+                            <input type="radio" id="other_music_genre" name="favorite_music_genre" value="other_music_genre">
                             <label for="other_music_genre">อื่นๆ</label>
                         </td>
                     </td>
@@ -123,14 +127,17 @@
             <tr>
                 <td>
                     <td>
+                        <br>
                         <input type="reset" value="Reset">
                         <td>
+                            <br>
                              <input type="submit" value="Submit">
                         </td>
                     </td>
                 </td>
             </tr>
             </table>
+            </center>
         </form>
     </body>
 </html>
