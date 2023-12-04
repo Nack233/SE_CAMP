@@ -1,0 +1,23 @@
+h1{
+    font-family: 'TH SarabunPSK',Arial,sans-serif;
+    color: rgb(0, 0, 0) ;
+}
+.box{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(75, 75, 75);
+    text-align: center;
+    color: #f8f8f8;
+    border: 5px dashed chartreuse;
+    padding-top: 50px;
+    margin: 50px 0px 0px 100px;
+}
+.box:hover{
+    background-color: rgb(117, 119, 115);
+}
+a{
+    color: chartreuse
+}
+a:link{
+    color: blueviolet;
+}
