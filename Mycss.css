@@ -1,23 +1,18 @@
-h1{
-    font-family: 'TH SarabunPSK',Arial,sans-serif;
-    color: rgb(0, 0, 0) ;
-}
 .box{
     width: 400px;
     height: 400px;
-    background-color: rgb(75, 75, 75);
+    color: rgb(255, 255, 255);
+    background-color:rgb(88, 90, 88);
     text-align: center;
-    color: #f8f8f8;
-    border: 5px dashed chartreuse;
-    padding-top: 50px;
-    margin: 50px 0px 0px 100px;
+    border: 5px dashed rgb(0,255,0);
+    padding-top: 10px;
+    margin: 50px 25px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
 }
+
 .box:hover{
-    background-color: rgb(117, 119, 115);
-}
-a{
-    color: chartreuse
-}
-a:link{
-    color: blueviolet;
+    background-color:rgb(118, 11, 82);
+    transform: scale(1.2);
 }
