@@ -2,10 +2,35 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>ตารางสูตรคูณแม่</title>
 </head>
+<style>
+   php{
+    overflow: auto;
+   }
+</style>
 <body>
-    <?php echo'welcome'?>
+    <h1>ตารางสูตรคูณแม่</h1>
+
+    <table>
+<?php
+$i = 1;
+$j = 2;
+while ($i <= 24) {
+  echo "<tr>";
+  echo "<td>$j x $i = " . $i * $j . "</td>";
+  echo "</tr>";
+  $i++;
+}
+?>
+
+    </table>
+    <style>
+        table {
+            width: 150px;
+            height: 265px;
+            overflow: visible;
+        }
+    </style>
 </body>
 </html>
