@@ -1,36 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <title>ตารางสูตรคูณแม่</title>
+    <meta charset="utf-8">
 </head>
-<style>
-   php{
-    overflow: auto;
-   }
-</style>
+
 <body>
-    <h1>ตารางสูตรคูณแม่</h1>
+    <?php $multi_x = 2; ?>
+    <h1>ตารางสูตรคูณแม่ <?php echo $multi_x ?></h1>
 
     <table>
-<?php
-$i = 1;
-$j = 2;
-while ($i <= 24) {
-  echo "<tr>";
-  echo "<td>$j x $i = " . $i * $j . "</td>";
-  echo "</tr>";
-  $i++;
-}
+        <tbody>
+            <tr>
+            <?php
+    $b = 2;
+    for( $i=1; $i<=24; $i++ ) {
+        echo "{$b} x {$i} = ".($b*$i)."<br/>";
+    }
 ?>
-
+            </tr>
+        </tbody>
     </table>
     <style>
         table {
             width: 150px;
             height: 265px;
-            overflow: visible;
+            overflow: hidden;
+        }
+        tbody{
+            overflow: hidden;
         }
     </style>
 </body>
+
 </html>
