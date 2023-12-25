@@ -1,11 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="utf-8">
 </head>
+
 <body>
-    <?php echo'welcome'?>
+  <?php $multi_x = 2; ?>
+  <h1>ตารางสูตรคูณแม่ <?php echo $multi_x ?></h1>
+
+  <div class="box">
+    <table>
+      <tbody>
+        <tr>
+          <?php
+          $b = 2;
+          for ($i = 1; $i <= 24; $i++) {
+            echo "{$b} x {$i} = " . ($b * $i) . "<br/>";
+          }
+          ?>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <style>
+    .box {
+      width: 150px;
+      height: 265px;
+      overflow: auto;
+    }
+  </style>
 </body>
+
 </html>
