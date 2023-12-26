@@ -25,8 +25,8 @@
 
   <style>
     .box {
-      width: 150px;
-      height: 265px;
+      width: 300px;
+      height: 300px;
       overflow: auto;
       align-items: center;
       background-image: url("https://img.freepik.com/free-vector/hand-painted-watercolor-pastel-sky-background_23-2148902771.jpg");
